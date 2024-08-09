@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obaude Ayodeji Michael - Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 1rem;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+
+        .hero {
+            background: url('your-image.jpg') no-repeat center center/cover;
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 2rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+        }
+
+        .cta {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: #e8491d;
+            color: #fff;
+            text-decoration: none;
+            margin-top: 1rem;
+            border-radius: 5px;
+        }
+
+        .about, .projects, .services, .contact {
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        .about h2, .projects h2, .services h2, .contact h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .about p {
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+        }
+
+        .skills {
+            list-style: none;
+            margin: 1rem 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .skills li {
+            margin: 0 1rem;
+            padding: 0.5rem 1rem;
+            background: #e8491d;
+            color: #fff;
+            border-radius: 5px;
+        }
+
+        .project-list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .project {
+            background: #fff;
+            padding: 1rem;
+            margin: 1rem;
+            width: 30%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .services ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .services ul li {
+            margin: 0.5rem 0;
+            font-size: 1.2rem;
+        }
+
+        .contact a {
+            display: inline-block;
+            margin-top: 1rem;
+            font-size: 1.2rem;
+            color: #333;
+            text-decoration: none;
+            background: #e8491d;
+            padding: 0.7rem 1.5rem;
+            border-radius: 5px;
+            color: #fff;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Obaude Ayodeji Michael</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Transforming Data into Insights</h2>
+            <p>Data Analyst & Python Developer</p>
+            <a href="#projects" class="cta">View My Work</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>As a highly collaborative and integrity-driven Data Analyst and Python Script Writer, I bring a robust foundation in data analysis, advanced proficiency in Python scripting, and a proven track record of delivering insightful solutions through teamwork and creative problem-solving.</p>
+            <ul class="skills">
+                <li>Data Analysis</li>
+                <li>Python Scripting</li>
+                <li>Data Visualization (Python Plotly)</li>
+                <li>Microsoft Excel</li>
+                <li>Python Tutoring</li>
+                <li>Collaboration</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-list">
+                <div class="project">
+                    <h3>Financial Analysis Dashboard</h3>
+                    <p>Conducted comprehensive data analysis on financial datasets, focusing on trends and insights. Developed interactive dashboards using Python Plotly for effective data visualization.</p>
+                </div>
+                <div class="project">
+                    <h3>Titanic Survival Analysis</h3>
+                    <p>Led a detailed descriptive analysis of the Titanic survival dataset using Python, Plotly, and Dash libraries, uncovering critical insights related to gender, class, and age.</p>
+                </div>
+                <div class="project">
+                    <h3>Automated Student Registration</h3>
+                    <p>Designed and implemented a suite of Python scripts to automate the student registration data entry process, significantly improving efficiency and accuracy.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Services</h2>
+            <ul>
+                <li>Data Analysis & Visualization</li>
+                <li>Python Scripting & Automation</li>
+                <li>Python Programming Tutoring</li>
+                <li>Dashboard Development with Plotly/Dash</li>
+                <li>Academic Project Assistance</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Interested in working together? Feel free to reach out!</p>
+            <a href="mailto:obaudeayodejimichael@gmail.com">obaudeayodejimichael@gmail.com</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Obaude Ayodeji Michael | Ondo, Nigeria</p>
+        </div>
+    </footer>
+</body>
+</html>
